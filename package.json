@@ -1,0 +1,27 @@
+{
+  "name": "2da-pre-entrega-ismael-ayu",
+  "version": "1.0.0",
+  "description": "ProyectoCoderHTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaelayu/2da-pre-entrega-ismael-ayu.git"
+  },
+  "author": "Ismael Ayu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismaelayu/2da-pre-entrega-ismael-ayu/issues"
+  },
+  "homepage": "https://github.com/ismaelayu/2da-pre-entrega-ismael-ayu#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+   
+  }
+}

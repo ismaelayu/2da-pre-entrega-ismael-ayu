@@ -1,0 +1,106 @@
+@import 'variables';
+
+.w-30 {
+    width: 30%;
+  }
+  
+  ul {
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+  }
+  nav {
+   
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  ul li {
+    float:left;
+  }
+  li a {
+    color: blue;
+    display: block;
+    padding: 35px 30px;
+    text-decoration: none;
+  }
+  
+  .img_logo { 
+    position: relative;
+        top:-123px;
+      width: 150px;
+    height: 120px;
+    border: 1px solid red;
+  }
+  .titulo {
+      text-align: center;
+      font-size: 30px;
+      font-family: $texto-corto;
+     
+  
+  }
+  .descripcion {
+      text-align: center;
+      font-family: $texto-largo
+  }
+  .h2_tipos {
+     display: flex;
+      text-align: center;
+      
+      background-color: $color-fondo;
+      font-size: 15px;
+      color:$color-titulo;
+      font-family:$texto-corto;
+      padding: 12px 20px;
+      border-radius: 4px;
+     
+   
+   
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+  }
+  
+  
+  .marcas {
+   
+    background-color: $color-fondo;
+    text-align: center;
+    font-size: 50px;
+    font-family: $texto-corto;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+  }
+  .inpu
+  {
+    align-items: center;
+  }
+  
+  
+  .pie {
+    text-align: center;
+    font-family: $texto-corto;
+    
+  }
+  .info {
+    text-align: center;
+  
+  }
+  
+  @keyframes aparecer {
+   
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  @keyframes example {
+    
+  }
+  
+      
